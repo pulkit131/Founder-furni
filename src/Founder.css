@@ -1,0 +1,158 @@
+.home_section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_image {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.text_container_10 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+  margin-right: 50%;
+  margin-left: 60%;
+}
+
+.home_text {
+  color: #000;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Apfel Grotezk";
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6.25rem; /* 104.167% */
+  width: 37.25rem;
+  height: 11.6875rem;
+  flex-shrink: 0;
+  margin-right: 10%;
+}
+
+.home2_text {
+  color: #000;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Apfel Grotezk";
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 6.25rem;
+  text-align: center;
+  margin-top: 1rem; /* Adjust as needed for spacing between texts */
+  margin-right: 10%;
+}
+
+
+/* Media Queries */
+
+/* Extra small devices (phones, less than 600px) */
+@media only screen and (max-width: 599px) {
+  .text_container {
+    margin-right: 0;
+  }
+
+  .home_text {
+    font-size: 3.75rem; /* 60px */
+    -webkit-text-stroke-width: 2px;
+    margin-right: 0;
+  }
+
+  .home2_text {
+    font-size: 1.5rem; /* 24px */
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .text_container {
+    margin-right: 0;
+  }
+
+  .home_text {
+    font-size: 5rem; /* 80px */
+    -webkit-text-stroke-width: 2px;
+    margin-right: 0;
+  }
+
+  .home2_text {
+    font-size: 1.75rem; /* 28px */
+    width: 100%;
+    margin-right: 0;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .text_container {
+    margin-right: 0;
+  }
+
+  .home_text {
+    font-size: 8.75rem; /* 140px */
+    -webkit-text-stroke-width: 4px;
+    margin-right: 5%;
+  }
+
+  .home2_text {
+    font-size: 2rem; /* 32px */
+    width: 100%;
+    margin-right: 5%;
+  }
+
+
+}
+
+/* Large devices (laptops, 1024px and up) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .text_container {
+    margin-right: 20%;
+  }
+
+  .home_text {
+    font-size: 12.5rem; /* 200px */
+    -webkit-text-stroke-width: 5px;
+    margin-right: 10%;
+  }
+
+  .home2_text {
+    font-size: 2.25rem; /* 36px */
+    width: 110%;
+    margin-right: 10%;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+  .text_container {
+    margin-right: 30%;
+  }
+
+  .home_text {
+    font-size: 15.625rem; /* 250px */
+    -webkit-text-stroke-width: 7px;
+    margin-right: 10%;
+  }
+
+  .home2_text {
+    font-size: 2.5rem; /* 40px */
+    width: 120%;
+    margin-right: 10%;
+  }
+
+}

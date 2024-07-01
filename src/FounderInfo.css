@@ -1,0 +1,41 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .grid_item {
+    text-align: center;
+  }
+  
+  .grid_text {
+    color: #515062;
+    font-family: "General Sans Variable";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 32.6875rem; /* Set width */
+    height: 8.375rem; /* Set height */
+    flex-shrink: 0; /* Prevent shrinking */
+    margin: 0 auto; /* Center horizontally */
+    text-align: left; /* Align text inside the paragraph container to the left */
+  }
+
+  .grid_text2{
+    color: #515062;
+    font-family: "General Sans Variable";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 32.6875rem; /* Set width */
+    height: 8.375rem; /* Set height */
+    flex-shrink: 0; /* Prevent shrinking */
+    margin: 0 auto; /* Center horizontally */
+    text-align: right;
+  }
+  
